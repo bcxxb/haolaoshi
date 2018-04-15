@@ -1,6 +1,8 @@
 #coding:utf-8
-import sys;
-reload(sys);
+# import sys;
+# reload(sys);
+import importlib
+importlib.reload(sys)
 sys.setdefaultencoding("utf8")
 
 # from __future__ import unicode_literals
